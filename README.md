@@ -46,3 +46,8 @@ SSL Certification:
 > dokku config:set --no-restart <app> DOKKU_LETSENCRYPT_EMAIL=<emailaddress>
 > dokku letsencrypt <app>
 ```
+**General:**
+```
+See all Domains:
+> dokku domains:report
+```
